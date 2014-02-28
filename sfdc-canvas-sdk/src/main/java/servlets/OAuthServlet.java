@@ -106,9 +106,14 @@ public class OAuthServlet extends HttpServlet {
                 PostMethod post = new PostMethod(tokenUrl);
                 post.addParameter("code", code);
                 post.addParameter("grant_type", "authorization_code");
+                /*
                 post.addParameter("client_id", clientId);
                 post.addParameter("client_secret", clientSecret);
                 post.addParameter("redirect_uri", redirectUri);
+                */
+                post.addParameter("client_id","3MVG9GiqKapCZBwEQ.zsKlrXNZsLKRIt5N6_xlGkEu..UgAJSnXmX3gVC_pbaPnEjpu.4Q9G8oNqY6xjTdqC1" );
+                post.addParameter("client_secret", "3751930497380396254");
+                post.addParameter("redirect_uri", "https://cs11.salesforce.com/");
 
                 try {
                     httpclient.executeMethod(post);
