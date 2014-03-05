@@ -6,6 +6,6 @@
     <display-name>Canvas SDK</display-name>
 
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>../hello-world/index.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
